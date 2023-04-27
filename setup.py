@@ -9,7 +9,9 @@ setuptools.setup(
     packages=setuptools.find_packages("src"),
     package_dir={"": "src"},
     install_requires=[
+        "jupyterlab",
         "numpy",
+        "scikit-learn",
         "torch>=2.0",
         "requests",
     ],

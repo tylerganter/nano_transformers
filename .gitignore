@@ -153,4 +153,4 @@ dmypy.json
 cython_debug/
 
 out/
-sandbox.py
+# sandbox.*
